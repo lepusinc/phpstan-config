@@ -1,0 +1,17 @@
+{
+    "name": "lepusinc/phpstan-config",
+    "description": "Shared PHPStan configuration for Lepus Inc. projects",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Lepus Inc.",
+            "email": "engineering@lep.jp"
+        }
+    ],
+    "require": {
+        "phpstan/phpstan": "*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
