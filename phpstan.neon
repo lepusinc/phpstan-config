@@ -1,4 +1,14 @@
 parameters:
-    level: 5
-    checkMissingIterableValueType: false
-    reportUnmatchedIgnoredErrors: false
+  level: 3
+
+  parallel:
+    processTimeout: 1200.0
+
+  excludePaths:
+    - 'vendor/*'
+    - 'storage/*'
+
+  ignoreErrors:
+
+  checkMissingIterableValueType: false
+  reportUnmatchedIgnoredErrors: false
